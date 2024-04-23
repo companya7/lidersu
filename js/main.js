@@ -254,7 +254,7 @@ jQuery(document).ready(function($) {
 	var siteCountDown = function() {
 /* acrescentar horas no arquivo jquery.countdown.min após o número 24 da ultima linha  */
 
-		$('#date-countdown, #date-countdown2').countdown('2023/02/25', function(event) {
+		$('#date-countdown, #date-countdown2').countdown('2024/05/04', function(event) {
 		  var $this = $(this).html(event.strftime(''
 		    + '<span class="countdown-block"><span class="label">%w</span> semanas </span>'
 		    + '<span class="countdown-block"><span class="label">%d</span> dias </span>'
